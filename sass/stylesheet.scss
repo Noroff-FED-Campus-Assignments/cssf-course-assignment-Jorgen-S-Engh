@@ -1,0 +1,49 @@
+@import "component";
+
+
+.card{
+  border:none;
+}
+
+
+.profile-img{
+  border-radius: 50%;
+}
+
+.card-container{
+
+  
+  &__first{
+    background-image: url("../img/WebsiteConsultancy.png");
+    object-fit: none;
+  }
+
+  &__sec{
+    background-image: url("../img/WebsiteConsultancy.png");
+    object-fit:contain;
+  }
+
+  &__third{
+    background-image: url("../img/0d8ff060e175a6317393a3e493056888.jpg");
+  }
+
+
+}
+
+.bio-container{
+  max-width:300px;
+}
+
+.profile-section{
+  width:100%;
+}
+
+.table{
+  max-width: 300px;
+}
+
+.btn-primary{
+  max-width:200px;
+}
+
+
