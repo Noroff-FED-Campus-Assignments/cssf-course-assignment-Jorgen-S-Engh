@@ -5,11 +5,6 @@
   border:none;
 }
 
-
-.profile-img{
-  border-radius: 50%;
-}
-
 .card-container{
   
   &__first{
@@ -25,16 +20,10 @@
   &__third{
     background-image: url("../img/0d8ff060e175a6317393a3e493056888.jpg");
   }
-
-
 }
 
 .bio-container{
   max-width:300px;
-}
-
-.profile-section{
-  width:100%;
 }
 
 .table{
@@ -49,7 +38,23 @@
   max-height:200px;
   object-fit: cover;
 
+}
 
+h1{
+  color: $primary-colour;
+}
+
+p{
+  color: $third-colour;
+}
+
+@mixin rounded-border {
+  border: 0.5px dotted $third-colour;
+  border-radius: 2px;
+}
+
+img {
+  @include rounded-border;
 }
 
 
