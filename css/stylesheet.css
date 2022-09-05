@@ -1,0 +1,45 @@
+.card {
+  border: none;
+}
+
+.card-container__first {
+  background-image: url("../img/WebsiteConsultancy.png");
+  object-fit: none;
+}
+.card-container__sec {
+  background-image: url("../img/WebsiteConsultancy.png");
+  object-fit: contain;
+}
+.card-container__third {
+  background-image: url("../img/0d8ff060e175a6317393a3e493056888.jpg");
+}
+
+.bio-container {
+  max-width: 300px;
+}
+
+.table {
+  max-width: 300px;
+}
+
+.btn-primary {
+  max-width: 200px;
+}
+
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+h1 {
+  color: #191976;
+}
+
+p {
+  color: #0f0f0f;
+}
+
+img {
+  border: 0.5px dotted #0f0f0f;
+  border-radius: 2px;
+}/*# sourceMappingURL=stylesheet.css.map */

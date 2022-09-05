@@ -1,0 +1,65 @@
+@import "component";
+
+
+.card{
+  border:none;
+}
+
+.card-container{
+  
+  &__first{
+    background-image: url("../img/WebsiteConsultancy.png");
+    object-fit: none;
+  }
+
+  &__sec{
+    background-image: url("../img/WebsiteConsultancy.png");
+    object-fit:contain;
+  }
+
+  &__third{
+    background-image: url("../img/0d8ff060e175a6317393a3e493056888.jpg");
+  }
+}
+
+.bio-container{
+  max-width:300px;
+}
+
+.table{
+  max-width: 300px;
+}
+
+.btn-primary{
+  max-width:200px;
+}
+
+.card-img-top{
+  max-height:200px;
+  object-fit: cover;
+
+}
+
+h1{
+  color: $primary-colour;
+}
+
+p{
+  color: $third-colour;
+}
+
+@mixin rounded-border {
+  border: 0.5px dotted $third-colour;
+  border-radius: 2px;
+}
+
+img {
+  @include rounded-border;
+}
+
+
+
+
+
+
+
