@@ -11,7 +11,6 @@
 }
 
 .card-container{
-
   
   &__first{
     background-image: url("../img/WebsiteConsultancy.png");
@@ -45,5 +44,17 @@
 .btn-primary{
   max-width:200px;
 }
+
+.card-img-top{
+  max-height:200px;
+  object-fit: cover;
+
+
+}
+
+
+
+
+
 
 
