@@ -18,3 +18,11 @@
     );
   });
 })();
+
+// const name = document.querySelector(".register_name").value;
+const btnSubmit = document.querySelector(".btn-primary");
+
+btnSubmit.addEventListener("click", () => {
+  const name = document.getElementsById("validationCustom01").value;
+  console.log(name);
+});
